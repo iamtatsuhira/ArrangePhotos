@@ -25,6 +25,6 @@ $ python arrangephotos.py hoge.JPG
 ```sh
 $ for i in (ls):
     python arrangephotos.py $i
-    end
+end
 ```
 
