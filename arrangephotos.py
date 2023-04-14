@@ -6,7 +6,7 @@ import shutil
 import glob
 import datetime
 
-PIC_ALLAWED_EXTENSIONS = set(['jpg', 'JPG', 'png', 'PNG'])
+PIC_ALLAWED_EXTENSIONS = set(['jpg', 'JPG', 'png', 'PNG', 'DNG', 'dng'])
 MOV_ALLAWED_EXTENSIONS = set(['arw', 'ARW', 'MP4', 'mp4', 'MTS', 'mts', 'THM', 'thm'])
 
 def allowed_pic(filename):
