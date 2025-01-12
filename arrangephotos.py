@@ -7,7 +7,7 @@ import glob
 import datetime
 
 PIC_ALLAWED_EXTENSIONS = set(['jpg', 'JPG', 'png', 'PNG'])
-MOV_ALLAWED_EXTENSIONS = set(['arw', 'ARW', 'MP4', 'mp4', 'MTS', 'mts', 'THM', 'thm', 'DNG', 'dng'])
+MOV_ALLAWED_EXTENSIONS = set(['arw', 'ARW', 'MP4', 'mp4', 'MTS', 'mts', 'THM', 'thm', 'DNG', 'dng', 'mov', 'MOV'])
 # GRIIIx の DNG が PIL による Exifよみこみに対応していないっぽいから、とりあえず MOV チームにいれて処理
 
 def allowed_pic(filename):
